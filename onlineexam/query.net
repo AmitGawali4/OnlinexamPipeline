@@ -1,1 +1,2 @@
 string query = "Select Password, RoleId, FirstName, LastName from dbo.Account Where Username='" + account.Username + "';";
+ String name=request.getParameter("t1"); 
