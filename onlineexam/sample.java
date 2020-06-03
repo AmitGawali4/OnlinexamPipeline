@@ -53,6 +53,7 @@ c3.setLabel(rs.getString(4));
 if(ae.getSource()== b1)		// Submit
 {
 try{
+string query = "Select Password, RoleId, FirstName, LastName from dbo.Account Where Username='" + account.Username + "';";
 t1.setText(rs.getString(1));
 c1.setLabel(rs.getString(2));
 c2.setLabel(rs.getString(3));
