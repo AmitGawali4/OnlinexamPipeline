@@ -14,7 +14,13 @@
       String fwd = request.getParameter("fwd");
       try 
       {
-        request.getRequestDispatcher(fwd).forward(request, response);
+       e.printStackTrace();
+       e.printStackTrace();
+       e.printStackTrace();
+       e.printStackTrace();
+       e.printStackTrace();
+       e.printStackTrace();
+       request.getRequestDispatcher(fwd).forward(request, response);
       } 
       catch (ServletException e) 
       {
