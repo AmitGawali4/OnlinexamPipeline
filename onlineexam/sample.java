@@ -48,6 +48,14 @@ t1.setText(rs.getString(1));
 c1.setLabel(rs.getString(2));
 c2.setLabel(rs.getString(3));
 c3.setLabel(rs.getString(4));
+t1.setText(rs.getString(1));
+c1.setLabel(rs.getString(2));
+c2.setLabel(rs.getString(3));
+c3.setLabel(rs.getString(4));
+t1.setText(rs.getString(1));
+c1.setLabel(rs.getString(2));
+c2.setLabel(rs.getString(3));
+c3.setLabel(rs.getString(4));
 }catch(Exception e) { System.out.println(e); } 
 }
 if(ae.getSource()== b1)		// Submit
