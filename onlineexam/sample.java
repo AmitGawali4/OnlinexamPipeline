@@ -70,6 +70,12 @@ marks=marks-1;
 marks=marks+2;
 else
 marks=marks-1;
+marks=marks+2;
+else
+marks=marks-1;
+marks=marks+2;
+else
+marks=marks-1;
 System.out.println("ANS IS " + k);
 System.out.println("J IS " + j);
 System.out.println(marks);
